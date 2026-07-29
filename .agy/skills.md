@@ -1,17 +1,5 @@
-## Agent Directives: Version Control
+## Agent Directives: Asset Management
 
-When writing, suggesting, or generating git commit messages, you must strictly adhere to the following template. Do not use standard git commit formats (like conventional commits) unless explicitly asked.
-
-**Required Format:**
-Commit of the day:
-
- + [High-level summary of the first major change]
- + [High-level summary of the second major change]
- + [Continue for all relevant changes...]
-
-**Example:**
-Commit of the day:
-
- + Created Project and Experience data models
- + Scaffolded PortfolioHome responsive UI
- + Integrated Riverpod state management for mock API
+* **Directory Structure:** All local image assets must reside strictly within the `assets/images/` directory.
+* **Configuration:** Whenever you are instructed to use a new local image, you must automatically verify and update the `flutter: assets:` section in `pubspec.yaml` to include it.
+* **UI Implementation:** Use standard Flutter widgets like `Image.asset` or `AssetImage` for local images. Do not use network image widgets for local files.

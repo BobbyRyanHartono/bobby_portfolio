@@ -208,34 +208,12 @@ class HeroSection extends ConsumerWidget {
           ],
         ),
         padding: const EdgeInsets.all(6),
-        child: Container(
-          decoration: BoxDecoration(
-            shape: BoxShape.circle,
-            color: colorScheme.surface,
-          ),
-          child: Center(
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Icon(
-                  Icons.code_rounded,
-                  size: 64,
-                  color: colorScheme.primary,
-                ),
-                const SizedBox(height: 8),
-                Text(
-                  'FLUTTER DEV',
-                  style: TextStyle(
-                    fontWeight: FontWeight.bold,
-                    letterSpacing: 2,
-                    fontSize: 12,
-                    color: colorScheme.secondary,
-                  ),
-                ),
-              ],
+          child: ClipOval(
+            child: Image.asset(
+              'assets/images/app_icon.png',
+              fit: BoxFit.cover,
             ),
           ),
-        ),
       ),
     );
   }
