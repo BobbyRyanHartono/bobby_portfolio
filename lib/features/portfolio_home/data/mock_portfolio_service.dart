@@ -8,7 +8,7 @@ class MockPortfolioService implements PortfolioRepository {
   Future<ProfileInfo> getProfileInfo() async {
     await Future.delayed(const Duration(milliseconds: 400));
     return const ProfileInfo(
-      name: 'Bobby Ryan Hartono',
+      name: 'Samuel Bobby Ryan Hartono',
       title: 'Senior Flutter & Mobile Solutions Architect',
       bio: 'Crafting high-performance, cross-platform mobile apps with Flutter, Dart & modern reactive architecture. Passionate about beautiful UX, scalable state management, and clean code.',
       location: 'Jakarta, Indonesia',

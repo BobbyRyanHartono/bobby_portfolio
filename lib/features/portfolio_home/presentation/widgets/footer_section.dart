@@ -28,7 +28,7 @@ class FooterSection extends StatelessWidget {
         children: [
           Expanded(
             child: Text(
-              '© ${DateTime.now().year} Bobby Ryan Hartono. Built with Flutter & Riverpod.',
+              '© ${DateTime.now().year} Samuel Bobby Ryan Hartono. Built with Flutter & Riverpod.',
               style: theme.textTheme.bodySmall?.copyWith(
                 color: colorScheme.onSurface.withValues(alpha: 0.6),
               ),

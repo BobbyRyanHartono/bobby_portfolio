@@ -67,7 +67,7 @@ class PortfolioNavBar extends ConsumerWidget implements PreferredSizeWidget {
                 const SizedBox(width: 12),
                 Flexible(
                   child: Text(
-                    'Bobby Ryan Hartono',
+                    'Samuel Bobby Ryan Hartono',
                     style: theme.textTheme.titleMedium?.copyWith(
                       fontWeight: FontWeight.bold,
                       letterSpacing: 0.5,

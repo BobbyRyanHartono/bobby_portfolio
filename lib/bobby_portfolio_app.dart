@@ -12,7 +12,7 @@ class BobbyPortfolioApp extends ConsumerWidget {
     final themeMode = ref.watch(themeModeProvider);
 
     return MaterialApp(
-      title: 'Bobby Ryan Hartono - Portfolio',
+      title: 'Samuel Bobby Ryan Hartono - Portfolio',
       debugShowCheckedModeBanner: false,
       theme: AppTheme.lightTheme,
       darkTheme: AppTheme.darkTheme,
