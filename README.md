@@ -1,4 +1,4 @@
-# Bobby Ryan Hartono - Portfolio
+# Samuel Bobby Ryan Hartono - Portfolio
 
 A responsive, cross-platform personal portfolio application built with Flutter. This project leverages the Google Antigravity CLI for agent-driven rapid iteration and clean architectural scaffolding.
 
@@ -19,7 +19,7 @@ A responsive, cross-platform personal portfolio application built with Flutter. 
 
 | Feature Area            | Details                                                                                        | Technical Approach                                            |
 | :---------------------- | :--------------------------------------------------------------------------------------------- | :------------------------------------------------------------ |
-| **Hero/Intro**          | [cite_start]Name (Bobby Ryan Hartono), title, and primary call-to-action[cite: 24, 25].        | [cite_start]Stateless UI, custom typography [cite: 25]        |
+| **Hero/Intro**          | Name (Samuel Bobby Ryan Hartono), title, and primary call-to-action.        | Stateless UI, custom typography        |
 | **Project Showcase**    | [cite_start]Grid or carousel of past work and achievements[cite: 26].                          | [cite_start]`Project` Data Model, Mock API Service [cite: 26] |
 | **Experience Timeline** | [cite_start]A chronological list of work history and skills[cite: 27].                         | [cite_start]`Experience` Data Model, ListViews [cite: 27]     |
 | **Contact Section**     | [cite_start]Form to send emails or link out to external platforms (LinkedIn/GitHub)[cite: 28]. | [cite_start]Form validation, external URI launcher [cite: 28] |

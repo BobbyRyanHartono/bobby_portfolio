@@ -15,6 +15,6 @@ void main() {
     await tester.pumpAndSettle();
 
     // Verify main app title text is rendered
-    expect(find.text('Bobby Ryan Hartono'), findsWidgets);
+    expect(find.text('Samuel Bobby Ryan Hartono'), findsWidgets);
   });
 }

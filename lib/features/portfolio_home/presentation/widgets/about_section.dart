@@ -94,7 +94,7 @@ class AboutSection extends ConsumerWidget {
             ),
             const SizedBox(height: 16),
             Text(
-              'I am Bobby Ryan Hartono, a passionate mobile solutions architect with over 6 years of experience building cross-platform applications. My core expertise centers around Flutter, Dart, Clean Architecture, and reactive state management frameworks like Riverpod & BLoC.',
+              'I am Samuel Bobby Ryan Hartono, a passionate mobile solutions architect with over 6 years of experience building cross-platform applications. My core expertise centers around Flutter, Dart, Clean Architecture, and reactive state management frameworks like Riverpod & BLoC.',
               style: theme.textTheme.bodyMedium?.copyWith(
                 height: 1.6,
                 color: colorScheme.onSurface.withValues(alpha: 0.8),

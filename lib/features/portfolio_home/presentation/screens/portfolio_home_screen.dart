@@ -79,7 +79,7 @@ class PortfolioHomeScreen extends ConsumerWidget {
                 mainAxisAlignment: MainAxisAlignment.end,
                 children: [
                   Text(
-                    'Bobby Ryan Hartono',
+                    'Samuel Bobby Ryan Hartono',
                     style: TextStyle(
                       color: Colors.white,
                       fontSize: 20,
