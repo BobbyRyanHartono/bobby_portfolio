@@ -12,6 +12,8 @@
 .swiftpm/
 migrate_working_dir/
 .agy
+.mcp.json
+sample.db
 
 # IntelliJ related
 *.iml
